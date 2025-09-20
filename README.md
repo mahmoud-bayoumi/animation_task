@@ -1,16 +1,38 @@
-# animation_task
+# Animation Task
 
-A new Flutter project.
+This repository contains a Flutter project demonstrating animation techniques and UI components.
+
+## Features
+- Custom animations
+- Home view with widgets
+- Platform support: Android, iOS, Web, Linux, macOS, Windows
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- Dart
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/animation_task.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd animation_task
+   ```
+3. Get dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Project Structure
+- `lib/` - Main Dart code
+- `android/`, `ios/`, `web/`, `linux/`, `macos/`, `windows/` - Platform-specific files
+- `test/` - Unit and widget tests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
